@@ -88,10 +88,10 @@ sections:
     design:
       columns: '2'
   - block: Accomplishments
+    id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Awards'
-      id: awards
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -225,7 +225,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: welcome to discuss with me :)
+      text: Welcome to discuss with me :)
       # Contact (add or remove contact options as necessary)
       email: dongrj1107@gmail.com
       # phone: 

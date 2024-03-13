@@ -27,8 +27,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interest includes weakly supervised learning and trustworthy machine learning.
 
-
-
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
