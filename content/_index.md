@@ -102,7 +102,7 @@ sections:
       items:
         - #certificate_url: https://www.coursera.org
           date_end: ''
-          date_start: '2023-09'
+          date_start: '2023-09-1'
           # description: 'Award from China Computer Federation, sponsorship to attend CNCC 2023'
           # icon: coursera
           organization: CCF (China Computer Federation)
