@@ -11,10 +11,10 @@ main:
     url: '#awards'
     weight: 20
   - name: Projects(TBA)
-    url: '#projects'
+    #url: '#projects'
     weight: 30
   - name: Talks(TBA)
-    url: '#talks'
+    #url: '#talks'
     weight: 40
   - name: Publications
     url: '#featured'
