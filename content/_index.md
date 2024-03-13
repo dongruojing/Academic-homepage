@@ -87,10 +87,10 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-  - block: accomplishments
+  - block: Awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Awards'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -100,36 +100,20 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - #certificate_url: https://www.coursera.org
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          date_start: '2023-09'
+          # description: 'Award from China Computer Federation, sponsorship to attend CNCC 2023'
+          # icon: coursera
+          organization: CCF (China Computer Federation)
+          organization_url: https://www.ccf.org.cn/
+          title: CCF Elite Collegiate Award
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        
     design:
       columns: '2'
   - block: collection
+    demo: true
     id: posts
     content:
       title: Recent Posts
@@ -156,7 +140,9 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+      
   - block: portfolio
+    demo: true
     id: projects
     content:
       title: Projects
@@ -184,6 +170,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: markdown
+    demo: true
     content:
       title: Gallery
       subtitle: ''
@@ -209,14 +196,15 @@ sections:
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
         {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
+      # filters:
+      #  folders:
+      #    - publication
+        #exclude_featured: true
     design:
       columns: '2'
       view: citation
   - block: collection
+    demo: true
     id: talks
     content:
       title: Recent & Upcoming Talks
@@ -227,6 +215,7 @@ sections:
       columns: '2'
       view: compact
   - block: tag_cloud
+    demo: true
     content:
       title: Popular Topics
     design:
@@ -236,50 +225,49 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      text: welcome to discuss with me :)
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: dongrj1107@gmail.com
+      # phone: 
+      # appointment_url: 'https://calendly.com'
+     # address:
+        #street: 450 Serra Mall
+        #city: Sydney
+        #region: CA
+        #postcode: '94305'
+        #country: Australia
+        #country_code: US
+      #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      #office_hours:
+      #  - 'Monday 10:00 to 13:00'
+      #  - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+      #coordinates:
+       # latitude: '37.4275'
+       # longitude: '-122.1697'  
+      #contact_links:
+      #  - icon: twitter
+      #    icon_pack: fab
+      #    name: DM Me
+      #    link: 'https://twitter.com/Twitter'
+      #  - icon: skype
+      #    icon_pack: fab
+       #   name: Skype Me
+       #   link: 'skype:echo123?call'
+       # - icon: video
+       #   icon_pack: fas
+       #   name: Zoom Me
+        #  link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: true
+      #autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      #form:
+      #  provider: netlify
+       # formspree:
+       #   id:
+       # netlify:
+       #   # Enable CAPTCHA challenge to reduce spam?
+       #   captcha: false
     design:
       columns: '2'
 ---
