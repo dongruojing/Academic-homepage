@@ -45,7 +45,7 @@ education:
       institution: Southeast University, Nanjing, China
       year: 2019
 
-# Skills
+Skills: []
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 
 
