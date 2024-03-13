@@ -91,6 +91,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Awards'
+      id: awards
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -196,10 +197,9 @@ sections:
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
         {{% /callout %}}
-      # filters:
-      #  folders:
-      #    - publication
-        #exclude_featured: true
+       filters:
+        folders:
+          - publication
     design:
       columns: '2'
       view: citation
